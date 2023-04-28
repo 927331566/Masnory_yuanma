@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B980376529F7A15500DAB002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B980376429F7A15500DAB002 /* AppDelegate.m */; };
+		B980376829F7A15500DAB002 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B980376729F7A15500DAB002 /* SceneDelegate.m */; };
+		B980376B29F7A15500DAB002 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B980376A29F7A15500DAB002 /* ViewController.m */; };
+		B980376E29F7A15500DAB002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B980376C29F7A15500DAB002 /* Main.storyboard */; };
+		B980377129F7A15500DAB002 /* Masnory__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B980376F29F7A15500DAB002 /* Masnory__.xcdatamodeld */; };
+		B980377329F7A15700DAB002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B980377229F7A15700DAB002 /* Assets.xcassets */; };
+		B980377629F7A15700DAB002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B980377429F7A15700DAB002 /* LaunchScreen.storyboard */; };
+		B980377929F7A15700DAB002 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B980377829F7A15700DAB002 /* main.m */; };
+		B980378329F7A15700DAB002 /* Masnory__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B980378229F7A15700DAB002 /* Masnory__Tests.m */; };
+		B980378D29F7A15700DAB002 /* Masnory__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B980378C29F7A15700DAB002 /* Masnory__UITests.m */; };
+		B980378F29F7A15700DAB002 /* Masnory__UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B980378E29F7A15700DAB002 /* Masnory__UITestsLaunchTests.m */; };
+		C2FAAA67C27E24685F12E79B /* libPods-Masnory源码.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4AB86DDD1F9B0EA054C325 /* libPods-Masnory源码.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B980377F29F7A15700DAB002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B980375829F7A15500DAB002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B980375F29F7A15500DAB002;
+			remoteInfo = "Masnory源码";
+		};
+		B980378929F7A15700DAB002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B980375829F7A15500DAB002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B980375F29F7A15500DAB002;
+			remoteInfo = "Masnory源码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6506EF01CAE3F7155F4ED60 /* Pods-Masnory源码.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masnory源码.release.xcconfig"; path = "Target Support Files/Pods-Masnory源码/Pods-Masnory源码.release.xcconfig"; sourceTree = "<group>"; };
+		B980376029F7A15500DAB002 /* Masnory源码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masnory源码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B980376329F7A15500DAB002 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B980376429F7A15500DAB002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B980376629F7A15500DAB002 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B980376729F7A15500DAB002 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B980376929F7A15500DAB002 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B980376A29F7A15500DAB002 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B980376D29F7A15500DAB002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B980377029F7A15500DAB002 /* Masnory__.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Masnory__.xcdatamodel; sourceTree = "<group>"; };
+		B980377229F7A15700DAB002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B980377529F7A15700DAB002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B980377729F7A15700DAB002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B980377829F7A15700DAB002 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B980377E29F7A15700DAB002 /* Masnory源码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masnory源码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B980378229F7A15700DAB002 /* Masnory__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masnory__Tests.m; sourceTree = "<group>"; };
+		B980378829F7A15700DAB002 /* Masnory源码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masnory源码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B980378C29F7A15700DAB002 /* Masnory__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masnory__UITests.m; sourceTree = "<group>"; };
+		B980378E29F7A15700DAB002 /* Masnory__UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Masnory__UITestsLaunchTests.m; sourceTree = "<group>"; };
+		BE737AC97E62678201E22252 /* Pods-Masnory源码.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Masnory源码.debug.xcconfig"; path = "Target Support Files/Pods-Masnory源码/Pods-Masnory源码.debug.xcconfig"; sourceTree = "<group>"; };
+		FB4AB86DDD1F9B0EA054C325 /* libPods-Masnory源码.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Masnory源码.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B980375D29F7A15500DAB002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FAAA67C27E24685F12E79B /* libPods-Masnory源码.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980377B29F7A15700DAB002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980378529F7A15700DAB002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922624AC2833D6536B2AA03A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AB86DDD1F9B0EA054C325 /* libPods-Masnory源码.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4C539F1C95A82AB2F3B4868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE737AC97E62678201E22252 /* Pods-Masnory源码.debug.xcconfig */,
+				B6506EF01CAE3F7155F4ED60 /* Pods-Masnory源码.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B980375729F7A15500DAB002 = {
+			isa = PBXGroup;
+			children = (
+				B980376229F7A15500DAB002 /* Masnory源码 */,
+				B980378129F7A15700DAB002 /* Masnory源码Tests */,
+				B980378B29F7A15700DAB002 /* Masnory源码UITests */,
+				B980376129F7A15500DAB002 /* Products */,
+				A4C539F1C95A82AB2F3B4868 /* Pods */,
+				922624AC2833D6536B2AA03A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B980376129F7A15500DAB002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B980376029F7A15500DAB002 /* Masnory源码.app */,
+				B980377E29F7A15700DAB002 /* Masnory源码Tests.xctest */,
+				B980378829F7A15700DAB002 /* Masnory源码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B980376229F7A15500DAB002 /* Masnory源码 */ = {
+			isa = PBXGroup;
+			children = (
+				B980376329F7A15500DAB002 /* AppDelegate.h */,
+				B980376429F7A15500DAB002 /* AppDelegate.m */,
+				B980376629F7A15500DAB002 /* SceneDelegate.h */,
+				B980376729F7A15500DAB002 /* SceneDelegate.m */,
+				B980376929F7A15500DAB002 /* ViewController.h */,
+				B980376A29F7A15500DAB002 /* ViewController.m */,
+				B980376C29F7A15500DAB002 /* Main.storyboard */,
+				B980377229F7A15700DAB002 /* Assets.xcassets */,
+				B980377429F7A15700DAB002 /* LaunchScreen.storyboard */,
+				B980377729F7A15700DAB002 /* Info.plist */,
+				B980377829F7A15700DAB002 /* main.m */,
+				B980376F29F7A15500DAB002 /* Masnory__.xcdatamodeld */,
+			);
+			path = "Masnory源码";
+			sourceTree = "<group>";
+		};
+		B980378129F7A15700DAB002 /* Masnory源码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B980378229F7A15700DAB002 /* Masnory__Tests.m */,
+			);
+			path = "Masnory源码Tests";
+			sourceTree = "<group>";
+		};
+		B980378B29F7A15700DAB002 /* Masnory源码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B980378C29F7A15700DAB002 /* Masnory__UITests.m */,
+				B980378E29F7A15700DAB002 /* Masnory__UITestsLaunchTests.m */,
+			);
+			path = "Masnory源码UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B980375F29F7A15500DAB002 /* Masnory源码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B980379229F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码" */;
+			buildPhases = (
+				8CE42D990329730C7B8B63BE /* [CP] Check Pods Manifest.lock */,
+				B980375C29F7A15500DAB002 /* Sources */,
+				B980375D29F7A15500DAB002 /* Frameworks */,
+				B980375E29F7A15500DAB002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masnory源码";
+			productName = "Masnory源码";
+			productReference = B980376029F7A15500DAB002 /* Masnory源码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B980377D29F7A15700DAB002 /* Masnory源码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B980379529F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码Tests" */;
+			buildPhases = (
+				B980377A29F7A15700DAB002 /* Sources */,
+				B980377B29F7A15700DAB002 /* Frameworks */,
+				B980377C29F7A15700DAB002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B980378029F7A15700DAB002 /* PBXTargetDependency */,
+			);
+			name = "Masnory源码Tests";
+			productName = "Masnory源码Tests";
+			productReference = B980377E29F7A15700DAB002 /* Masnory源码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B980378729F7A15700DAB002 /* Masnory源码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B980379829F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码UITests" */;
+			buildPhases = (
+				B980378429F7A15700DAB002 /* Sources */,
+				B980378529F7A15700DAB002 /* Frameworks */,
+				B980378629F7A15700DAB002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B980378A29F7A15700DAB002 /* PBXTargetDependency */,
+			);
+			name = "Masnory源码UITests";
+			productName = "Masnory源码UITests";
+			productReference = B980378829F7A15700DAB002 /* Masnory源码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B980375829F7A15500DAB002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B980375F29F7A15500DAB002 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B980377D29F7A15700DAB002 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B980375F29F7A15500DAB002;
+					};
+					B980378729F7A15700DAB002 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = B980375F29F7A15500DAB002;
+					};
+				};
+			};
+			buildConfigurationList = B980375B29F7A15500DAB002 /* Build configuration list for PBXProject "Masnory源码" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B980375729F7A15500DAB002;
+			productRefGroup = B980376129F7A15500DAB002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B980375F29F7A15500DAB002 /* Masnory源码 */,
+				B980377D29F7A15700DAB002 /* Masnory源码Tests */,
+				B980378729F7A15700DAB002 /* Masnory源码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B980375E29F7A15500DAB002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B980377629F7A15700DAB002 /* LaunchScreen.storyboard in Resources */,
+				B980377329F7A15700DAB002 /* Assets.xcassets in Resources */,
+				B980376E29F7A15500DAB002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980377C29F7A15700DAB002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980378629F7A15700DAB002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CE42D990329730C7B8B63BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Masnory源码-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B980375C29F7A15500DAB002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B980377929F7A15700DAB002 /* main.m in Sources */,
+				B980376B29F7A15500DAB002 /* ViewController.m in Sources */,
+				B980377129F7A15500DAB002 /* Masnory__.xcdatamodeld in Sources */,
+				B980376529F7A15500DAB002 /* AppDelegate.m in Sources */,
+				B980376829F7A15500DAB002 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980377A29F7A15700DAB002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B980378329F7A15700DAB002 /* Masnory__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B980378429F7A15700DAB002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B980378F29F7A15700DAB002 /* Masnory__UITestsLaunchTests.m in Sources */,
+				B980378D29F7A15700DAB002 /* Masnory__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B980378029F7A15700DAB002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B980375F29F7A15500DAB002 /* Masnory源码 */;
+			targetProxy = B980377F29F7A15700DAB002 /* PBXContainerItemProxy */;
+		};
+		B980378A29F7A15700DAB002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B980375F29F7A15500DAB002 /* Masnory源码 */;
+			targetProxy = B980378929F7A15700DAB002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B980376C29F7A15500DAB002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B980376D29F7A15500DAB002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B980377429F7A15700DAB002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B980377529F7A15700DAB002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B980379029F7A15700DAB002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B980379129F7A15700DAB002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B980379329F7A15700DAB002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE737AC97E62678201E22252 /* Pods-Masnory源码.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Masnory源码/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B980379429F7A15700DAB002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6506EF01CAE3F7155F4ED60 /* Pods-Masnory源码.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Masnory源码/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B980379629F7A15700DAB002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masnory源码.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Masnory源码";
+			};
+			name = Debug;
+		};
+		B980379729F7A15700DAB002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masnory源码.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Masnory源码";
+			};
+			name = Release;
+		};
+		B980379929F7A15700DAB002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masnory源码";
+			};
+			name = Debug;
+		};
+		B980379A29F7A15700DAB002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ttrg.Masnory--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Masnory源码";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B980375B29F7A15500DAB002 /* Build configuration list for PBXProject "Masnory源码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B980379029F7A15700DAB002 /* Debug */,
+				B980379129F7A15700DAB002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B980379229F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B980379329F7A15700DAB002 /* Debug */,
+				B980379429F7A15700DAB002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B980379529F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B980379629F7A15700DAB002 /* Debug */,
+				B980379729F7A15700DAB002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B980379829F7A15700DAB002 /* Build configuration list for PBXNativeTarget "Masnory源码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B980379929F7A15700DAB002 /* Debug */,
+				B980379A29F7A15700DAB002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B980376F29F7A15500DAB002 /* Masnory__.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B980377029F7A15500DAB002 /* Masnory__.xcdatamodel */,
+			);
+			currentVersion = B980377029F7A15500DAB002 /* Masnory__.xcdatamodel */;
+			path = Masnory__.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B980375829F7A15500DAB002 /* Project object */;
+}
